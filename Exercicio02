@@ -1,0 +1,12 @@
+## 2. Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+
+nome = str(input("Diite seu nome: "))
+
+num = int(input("Digite o número: "))
+
+if num == 0:
+    print (f"{nome}, O número digitado é Neutro!")
+elif num < 0:
+    print (f"{nome}, O número digitado é Negativo!")
+elif num > 0:
+    print (f"{nome}, O número digitado é Positivo!")
