@@ -1,0 +1,11 @@
+##1.Faça um Programa que peça dois números e imprima o maior deles.
+
+nome = str(input("Digite seu nome: "))
+
+num1 = int(input("Digite o número 01: "))
+num2 = int(input("Digite o número 02: "))
+
+if num1 > num2 :
+   print(f"{nome}, O maior número é: {num1}")
+elif num2 > num1:
+   print(f"{nome}, O maior número é:  {num2}")
